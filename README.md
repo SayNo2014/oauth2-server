@@ -295,7 +295,7 @@ public class UserController {
 ![](https://www.zhaidehui.com/usr/uploads/2018/04/4013630658.png)
 
 ## Spring Security OAth2登录源码流程图
-![](https://www.zhaidehui.com/usr/uploads/2018/04/894266923.png)https://raw.githubusercontent.com/longfeizheng/longfeizheng.github.io/master/images/security/spring-security-oatuh202.pn
+![](https://www.zhaidehui.com/usr/uploads/2018/04/894266923.png)
 
 ## 源码
 
