@@ -298,8 +298,10 @@ public class UserController {
 ![](https://www.zhaidehui.com/usr/uploads/2018/04/894266923.png)
 
 ## 源码
-
  - [oauth2-server](https://github.com/SayNo2014/oauth2-server "oauth2-server")
+
+## 接口文档（参考文献）
+- [微信网页授权](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842 "微信网页授权")
 
 ## 参考文献
 - [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html "理解OAuth 2.0")
