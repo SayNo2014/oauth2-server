@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xhyg.oauth.repository.UserMapper">
+	<resultMap id="userMap" type="xhyg.oauth.domain.SysUser">
+		<id property="id" column="ID" />
+		<result property="username" column="USERNAME" />
+		<result property="password" column="PASSWORD" />
+		<result property="authority" column="AUTHORITY" />
+	</resultMap>
+	
+	<select id="findByUserName" parameterType="String" resultMap="userMap">
+		SELECT USER.ID,USER.USERNAME,USER.PASSWORD,USER.AUTHORITY
+		FROM SYS_USER USER
+		WHERE USERNAME= #{username}
+	</select>
+</mapper>
