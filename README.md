@@ -299,7 +299,7 @@ public class UserController {
 
 ## 源码
 
--- 
+ - [oauth2-server](https://github.com/SayNo2014/oauth2-server "oauth2-server")
 
 ## 参考文献
 - [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html "理解OAuth 2.0")
